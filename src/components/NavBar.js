@@ -4,7 +4,11 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-white-800 p-6 shadow-none rounded-lg">
       <div className="flex items-center flex-shrink-0 text-black mr-6">
-        <div className="text-xl">logo</div>
+        <img
+          src="https://iili.io/mfsM92.md.png"
+          alt="logo"
+          className="h-12 w-44"
+        ></img>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
