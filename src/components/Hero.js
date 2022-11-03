@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero(props) {
   return (
     <div>
-      <section class="px-4 py-24 mx-auto max-w-7xl">
+      <section class="px-4 py-20 mx-auto max-w-7xl" id="home">
         <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
           <p className="text-6xl font-roboto text-black">UNIBREAKERS</p>
           <br />
