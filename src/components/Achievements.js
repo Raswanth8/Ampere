@@ -3,9 +3,8 @@ import React from "react";
 export default function Achievements() {
   return (
     <section class="px-4 py-24 mx-auto max-w-7xl" id="achieve">
-      <p className="text-5xl font-roboto text-black">
-        Our &nbsp;
-        <text className="text-orange-600">Achievements</text>
+      <p className="text-6xl font-roboto text-black">
+        Our <text className="text-orange-600">Achievements</text>
       </p>
       <br />
       <div class="grid grid-cols-2 gap-2 text-center lg:grid-cols-3">
