@@ -80,7 +80,7 @@ export default function About() {
           <h2 class="mb-4 text-5xl font-extrabold tracking-tight text-center text-black md:leading-tight sm:text-center md:text-5xl font-roboto">
             UniBreakers &nbsp;
             <text className="text-emerald-700">Pickleball</text>
-            &nbsp; Academy
+            &nbsp; <br /> Club
           </h2>
           <p class="mb-5 text-base text-justify font-poppins text-gray-600 sm:text-justify md:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vitae
