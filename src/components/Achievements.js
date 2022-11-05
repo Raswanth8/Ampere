@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Achievements() {
   return (
-    <section class="px-4 py-24 mx-auto max-w-7xl" id="achieve">
+    <section class="px-4 py-24 mx-auto max-w-7xl" id="achieve-page">
       <p className="text-6xl font-roboto text-black">
         Our <text className="text-orange-600">Achievements</text>
       </p>

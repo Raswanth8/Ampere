@@ -2,8 +2,11 @@ import React from "react";
 
 export default function About() {
   return (
-    <section class="px-4 py-24 mx-auto max-w-7xl">
-      <div class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+    <section class="px-4 py-24 mx-auto max-w-7xl " id="about-page">
+      <div
+        class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24"
+        id="bad-mint"
+      >
         <div>
           <center>
             <img
@@ -61,7 +64,10 @@ export default function About() {
         <div class="w-full h-full py-48 bg-gray-200"></div>
       </div>
       <br />
-      <div class="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+      <div
+        class="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24"
+        id="pickle-ball"
+      >
         <div class="order-none md:order-2">
           <center>
             <img

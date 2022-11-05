@@ -1,8 +1,8 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 export default function Footer(props) {
   return (
-    <footer class="px-4 py-12 mx-auto max-w-7xl">
+    <footer class="px-4 py-12 mx-auto max-w-7xl" id="contact-us">
       <div class="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-11 lg:gap-20">
         <div class="col-span-2">
           <img
@@ -52,25 +52,33 @@ export default function Footer(props) {
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
             href="#"
           >
-            About Us
+            <Link to="about-page" smooth={true} offset={-70} duration={1200}>
+              About Us
+            </Link>
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
             href="#"
           >
-            Achievements
+            <Link to="achieve-page" smooth={true} offset={-70} duration={1200}>
+              Achievements
+            </Link>
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
             href="#"
           >
-            FAQ
+            <Link to="faq-page" smooth={true} offset={-70} duration={1200}>
+              FAQs
+            </Link>
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
             href="#"
           >
-            Contact Us
+            <Link to="contact-us" smooth={true} offset={-70} duration={1200}>
+              Contact Us
+            </Link>
           </a>
         </nav>
       </div>

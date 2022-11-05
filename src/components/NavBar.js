@@ -22,7 +22,7 @@ export default function Navbar() {
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-orange-500 hover:text-black mr-4 font-poppins"
           >
-            <Link to="feature-page" smooth={true} offset={-70} duration={1200}>
+            <Link to="about-page" smooth={true} offset={-70} duration={1200}>
               About Us
             </Link>
           </a>
@@ -30,7 +30,7 @@ export default function Navbar() {
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-orange-500 hover:text-black mr-4 font-poppins"
           >
-            <Link to="prod-display" smooth={true} offset={-70} duration={1200}>
+            <Link to="achieve-page" smooth={true} offset={-70} duration={1200}>
               Achievements
             </Link>
           </a>
@@ -38,7 +38,7 @@ export default function Navbar() {
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-orange-500 hover:text-black mr-4 font-poppins"
           >
-            <Link to="prod-display" smooth={true} offset={-70} duration={1200}>
+            <Link to="contact-us" smooth={true} offset={-70} duration={1200}>
               Contact Us
             </Link>
           </a>

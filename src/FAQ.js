@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FAQ(props) {
   return (
-    <section class="px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2">
+    <section class="px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2" id="faq-page">
       <p className="text-6xl font-roboto text-black">
         Frequently <text className="text-orange-600">Asked</text> Questions
       </p>

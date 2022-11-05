@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 export default function Hero(props) {
   return (
@@ -15,10 +16,14 @@ export default function Hero(props) {
           </p>
           <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
             <button class="text-white bg-orange-600 btn hover:bg-orange-700 font-poppins">
-              Badminton Academy
+              <Link to="bad-mint" smooth={true} offset={-70} duration={1200}>
+                Badminton Academy
+              </Link>
             </button>
             <button class="text-white bg-orange-600 btn hover:bg-orange-700 font-poppins">
-              Pickle Ball Club
+              <Link to="pickle-ball" smooth={true} offset={-70} duration={1200}>
+                Pickleball Club
+              </Link>
             </button>
           </div>
         </div>
