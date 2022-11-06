@@ -22,10 +22,17 @@ export default function About() {
             &nbsp; Academy
           </h2>
           <p class="mb-5 text-base text-justify font-poppins text-gray-600 sm:text-justify md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vitae
-            hic aliquid, ipsum iusto aut ducimus totam! Modi nemo, voluptas
-            velit, laudantium quasi quod vel nobis, architecto nulla accusantium
-            laborum!
+            Unibreakers Badminton Academy was founded on{" "}
+            <text className="text-orange-600 font-semibold underline italic">
+              24th October 2020
+            </text>
+            , the aim of the academy is to take players to the next level.
+            Currently all the players are training and competing for{" "}
+            <text className="text-orange-600 font-semibold underline italic">
+              State and National level.
+            </text>{" "}
+            The long term visionary about academy is to take players at
+            Olympics.
           </p>
           <br />
           <div class="grid grid-cols-3 gap-3">

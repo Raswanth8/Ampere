@@ -8,10 +8,12 @@ export default function Footer(props) {
           <img
             src="https://iili.io/mfsM92.md.png"
             alt="logo"
-            className="h-12 w-44"
+            className="h-12 w-50"
           ></img>
-          <p class="my-4 text-xs leading-normal text-gray-600 font-poppins">
-            Address Phone Email
+          <p class="my-4 text-xs leading-normal text-gray-600 font-poppins text-center">
+            Unibreakers Badminton Academy, <br /> 1 oil Mil street,
+            Thatangullam, Choolai, Chennai - 600112 <br /> Utsav Jain -
+            9840667858 <br /> utsav.unibreakers@gmail.com
           </p>
         </div>
 
@@ -21,25 +23,25 @@ export default function Footer(props) {
           </p>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="#"
+            href="https://www.instagram.com/unibreakers.badminton.academy/?igshid=YmMyMTA2M2Y%3D"
           >
             Instagram
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="#"
+            href="mailto:utsav.unibreakers@gmail.com"
           >
             Email
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="#"
+            href="https://www.instagram.com/unibreakers.badminton.academy/?igshid=YmMyMTA2M2Y%3D"
           >
             Facebook
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="#"
+            href="https://wa.me/9840667858?text="
           >
             WhatsApp
           </a>
