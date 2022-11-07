@@ -10,8 +10,8 @@ export default function About() {
         <div>
           <center>
             <img
-              src="https://iili.io/mq5zLQ.md.png"
-              className="w-50 h-40"
+              src="https://i.postimg.cc/FF20fhhn/image-1-2.png"
+              className="w-55 h-40"
               alt="bad"
             ></img>
           </center>
@@ -68,7 +68,13 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div class="w-full h-full py-48 bg-gray-200"></div>
+        <div class="w-full h-full">
+          <img
+            src="https://i.postimg.cc/634RkMvj/Untitled-design-1.png"
+            border="0"
+            alt="Untitled-design-1"
+          />
+        </div>
       </div>
       <br />
       <div
@@ -90,10 +96,16 @@ export default function About() {
             &nbsp; <br /> Club
           </h2>
           <p class="mb-5 text-base text-justify font-poppins text-gray-600 sm:text-justify md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vitae
-            hic aliquid, ipsum iusto aut ducimus totam! Modi nemo, voluptas
-            velit, laudantium quasi quod vel nobis, architecto nulla accusantium
-            laborum!
+            Unibreakers Pickleball Club is a club mainly to promote{" "}
+            <text className="text-emerald-700 font-semibold underline italic">
+              Pickleball culture
+            </text>{" "}
+            in the country. The club goal is to bring in more new young players
+            and make the sport competitive. The club has already produced{" "}
+            <text className="text-emerald-700 font-semibold underline italic">
+              2 national medalists and 4 state medalists
+            </text>{" "}
+            and also have plans to bring in more players.
           </p>
           <br />
           <div class="grid grid-cols-3 gap-3">

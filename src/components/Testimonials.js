@@ -4,18 +4,19 @@ export default function Testimonials(props) {
   return (
     <section class="px-2 py-22 mx-auto" id="testimonials">
       <p className="text-6xl font-roboto text-black">
-        Customer <text className="text-orange-600">Testimonials</text>
+        Meet our <text className="text-orange-600">Team</text>
       </p>
 
       <section class="grid grid-cols-1 gap-20 px-4 py-24 mx-auto max-w-7xl lg:px-16 xl:px-24 md:grid-cols-2 lg:grid-cols-3">
         <div>
-          <div class="avatar">
+          <div>
             <img
               src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
               alt="Photo 1"
+              class="object-cover w-25 h-25 rounded-t-lg"
             />
           </div>
-
+          <br />
           <p class="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase font-poppins">
             Name
           </p>
@@ -31,13 +32,14 @@ export default function Testimonials(props) {
           </p>
         </div>
         <div>
-          <div class="avatar">
+          <div>
             <img
               src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
               alt="Photo 2"
+              class="object-cover w-25 h-25 rounded-t-lg"
             />
           </div>
-
+          <br />
           <p class="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase font-poppins">
             Name
           </p>
@@ -53,13 +55,14 @@ export default function Testimonials(props) {
           </p>
         </div>
         <div>
-          <div class="avatar">
+          <div>
             <img
               src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-              alt="Photo 2"
+              alt="Photo 3"
+              class="object-cover w-25 h-25 rounded-t-lg"
             />
           </div>
-
+          <br />
           <p class="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase font-poppins">
             Name
           </p>

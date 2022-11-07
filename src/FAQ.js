@@ -24,7 +24,7 @@ export default function FAQ(props) {
         </svg>
         <div>
           <p class="mt-0 mb-3 font-semibold text-gray-900 text-left font-poppins">
-            What is accessibility?
+            What is Program Fee?
           </p>
           <p class="text-gray-600 text-left font-poppins">
             This article starts off the module with a good look at what

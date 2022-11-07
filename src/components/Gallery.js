@@ -8,23 +8,6 @@ import "swiper/css/scrollbar";
 
 import "swiper/css/autoplay";
 
-function rand(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
-}
-
-function imgUrl() {
-  const id = rand(1, 200);
-  return `https://picsum.photos/id/${id}/1920/1080`;
-}
-
-function createSlide() {
-  return (
-    <SwiperSlide>
-      <img className="img" src={imgUrl()} alt="" />
-    </SwiperSlide>
-  );
-}
-
 export default function Gallery() {
   return (
     <section class="px-4 py-24 mx-auto max-w-7xl" id="achieve">
@@ -39,10 +22,46 @@ export default function Gallery() {
         autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
       >
-        {createSlide()}
-        {createSlide()}
-        {createSlide()}
-        {createSlide()}
+        <SwiperSlide>
+          <center>
+            <img
+              src="https://i.postimg.cc/JzFqDHMk/Whats-App-Image-2022-11-05-at-11-08-16-PM.jpg"
+              alt="Whats-App-Image-2022-11-05-at-11-08-16-PM"
+            />
+          </center>
+        </SwiperSlide>
+        <SwiperSlide>
+          <center>
+            <img
+              src="https://i.postimg.cc/ydmXbf9m/Whats-App-Image-2022-11-06-at-11-25-09-PM.jpg"
+              alt="Whats-App-Image-2022-11-06-at-11-25-09-PM"
+            />
+          </center>
+        </SwiperSlide>
+        <SwiperSlide>
+          <center>
+            <img
+              src="https://i.postimg.cc/6qBLJdLD/Whats-App-Image-2022-11-06-at-11-25-10-PM.jpg"
+              alt="Whats-App-Image-2022-11-06-at-11-25-10-PM"
+            />
+          </center>
+        </SwiperSlide>
+        <SwiperSlide>
+          <center>
+            <img
+              src="https://i.postimg.cc/SRVLyJgj/Whats-App-Image-2022-11-06-at-11-27-13-PM-1.jpg"
+              alt="Whats-App-Image-2022-11-06-at-11-27-13-PM-1"
+            />
+          </center>
+        </SwiperSlide>
+        <SwiperSlide>
+          <center>
+            <img
+              src="https://i.postimg.cc/05C0GB9x/Whats-App-Image-2022-11-06-at-11-27-09-PM-1.jpg"
+              alt="Whats-App-Image-2022-11-06-at-11-27-09-PM"
+            />
+          </center>
+        </SwiperSlide>
       </Swiper>
     </section>
   );
