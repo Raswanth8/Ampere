@@ -10,7 +10,7 @@ export default function About() {
         <div>
           <center>
             <img
-              src="https://i.postimg.cc/FF20fhhn/image-1-2.png"
+              src="https://i.ibb.co/bspHRnx/new-png.png"
               className="w-55 h-40"
               alt="bad"
             ></img>
@@ -141,7 +141,13 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div class="w-full h-full py-48 bg-gray-200"></div>
+        <div class="w-full h-full">
+          <img
+            src="https://i.postimg.cc/DZN8HZRq/Untitled-design-2.png"
+            border="0"
+            alt="Untitled-design-1"
+          />
+        </div>
       </div>
     </section>
   );

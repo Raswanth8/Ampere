@@ -52,7 +52,7 @@ export default function FAQ(props) {
         </svg>
         <div>
           <p class="mt-0 mb-3 font-semibold text-gray-900 text-left font-poppins">
-            CSS and JavaScript accessibility best practices?
+            Who can join the coaching class?
           </p>
           <p class="text-gray-600 text-left font-poppins">
             CSS and JavaScript, when used properly, also have the potential to
@@ -80,7 +80,7 @@ export default function FAQ(props) {
         </svg>
         <div>
           <p class="mt-0 mb-3 font-semibold text-gray-900 text-left font-poppins">
-            WAI-ARIA basics, WAI-ARIA basics, WAI-ARIA basics, WAI-ARIA basics?
+            What are time slots available for the coaching?
           </p>
           <p class="text-gray-600 text-left font-poppins">
             Following on from the previous article, sometimes making complex UI
