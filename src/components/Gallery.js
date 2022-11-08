@@ -62,6 +62,22 @@ export default function Gallery() {
             />
           </center>
         </SwiperSlide>
+        <SwiperSlide>
+          <center>
+            <img
+              src="https://i.postimg.cc/0NCDPh78/Whats-App-Image-2022-11-08-at-12-28-52-PM.jpg"
+              alt="Whats-App-Image-2022-11-08-at-12-28-52-PM"
+            />
+          </center>
+        </SwiperSlide>
+        <SwiperSlide>
+          <center>
+            <img
+              src="https://i.postimg.cc/Jh7vrVSx/Whats-App-Image-2022-11-08-at-11-32-49-AM.jpg"
+              alt="Whats-App-Image-2022-11-08-at-11-32-49-AM"
+            />
+          </center>
+        </SwiperSlide>
       </Swiper>
     </section>
   );

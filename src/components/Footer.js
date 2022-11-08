@@ -12,8 +12,11 @@ export default function Footer(props) {
           ></img>
           <p class="my-4 text-xs leading-normal text-gray-600 font-poppins text-center">
             Unibreakers Badminton Academy, <br /> 1 oil Mil street,
-            Thatangullam, Choolai, Chennai - 600112 <br /> Utsav Jain -
-            9840667858 <br /> utsav.unibreakers@gmail.com
+            Thatangullam, Choolai, Chennai - 600112 <br />{" "}
+            <b>Utsav Jain - 9840667858</b> <br />{" "}
+            <a href="mailto:unibreakersoff@gmail.com">
+              unibreakersoff@gmail.com
+            </a>
           </p>
         </div>
 
@@ -29,7 +32,7 @@ export default function Footer(props) {
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="mailto:utsav.unibreakers@gmail.com"
+            href="mailto:unibreakersoff@gmail.com"
           >
             Email
           </a>

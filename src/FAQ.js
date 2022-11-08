@@ -27,11 +27,9 @@ export default function FAQ(props) {
             What is Program Fee?
           </p>
           <p class="text-gray-600 text-left font-poppins">
-            This article starts off the module with a good look at what
-            accessibility is — this includes what groups of people we need to
-            consider and why, what tools different people use to interact with
-            the web, and how we can make accessibility part of our web
-            development workflow.
+            The players have been split into two categories according to their
+            previous experience. For Beginners, it costs ₹ 3500 and for advanced
+            players, it costs ₹ 6000.
           </p>
         </div>
       </div>
@@ -55,11 +53,10 @@ export default function FAQ(props) {
             Who can join the coaching class?
           </p>
           <p class="text-gray-600 text-left font-poppins">
-            CSS and JavaScript, when used properly, also have the potential to
-            allow for accessible web experiences, but if misused they can
-            significantly harm accessibility. This article outlines some CSS and
-            JavaScript best practices that should be considered to ensure that
-            even complex content is as accessible as possible.
+            We encourage every passionate sports person who belongs to either
+            beginner level or advanced level player to pursue training from our
+            top instructors to achieve their goals in high level sports
+            competitions.
           </p>
         </div>
       </div>
@@ -83,13 +80,13 @@ export default function FAQ(props) {
             What are time slots available for the coaching?
           </p>
           <p class="text-gray-600 text-left font-poppins">
-            Following on from the previous article, sometimes making complex UI
-            controls that involve unsemantic HTML and dynamic JavaScript-updated
-            content can be difficult. WAI-ARIA is a technology that can help
-            with such problems by adding in further semantics that browsers and
-            assistive technologies can recognize and use to let users know what
-            is going on. Here we'll show how to use it at a basic level to
-            improve accessibility.
+            The players have been split into two categories according to their
+            previous experience. For Beginners, we conduct coaching classes in
+            two batch slots. The first batch starts from 3:30 pm - 4:30 pm,
+            followed by the second batch starting from 4:30 pm - 5:30 pm. For
+            advanced players, we conduct coaching classes in two batch slots.
+            The first batch starts from 5:30 pm - 7 pm, followed by the second
+            batch starting from 7 pm - 9 pm.
           </p>
         </div>
       </div>
