@@ -44,7 +44,7 @@ export default function Footer(props) {
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="https://wa.me/9840667858?text="
+            href="https://wa.me/+919840667858?text="
           >
             WhatsApp
           </a>
