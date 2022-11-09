@@ -12,7 +12,7 @@ export default function Testimonials(props) {
           <div>
             <img
               src="https://i.postimg.cc/LXCqvsQG/Whats-App-Image-2022-11-08-at-9-17-50-AM.jpg"
-              alt="Photo 1"
+              alt="profile1"
               class="object-cover w-25 h-25 rounded-t-lg"
             />
           </div>
@@ -38,7 +38,7 @@ export default function Testimonials(props) {
           <div>
             <img
               src="https://i.postimg.cc/QCKSj51g/Whats-App-Image-2022-11-08-at-10-58-27-PM.jpg"
-              alt="Photo 2"
+              alt="profile2"
               class="object-cover w-25 h-25 rounded-t-lg"
             />
           </div>
