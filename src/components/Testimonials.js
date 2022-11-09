@@ -1,4 +1,6 @@
 import React from "react";
+import kart from "../assets/karthcik.jpeg";
+import utsav from "../assets/utsav.jpeg";
 
 export default function Testimonials(props) {
   return (
@@ -11,7 +13,7 @@ export default function Testimonials(props) {
         <div>
           <div>
             <img
-              src="https://i.postimg.cc/LXCqvsQG/Whats-App-Image-2022-11-08-at-9-17-50-AM.jpg"
+              src={kart}
               alt="profile1"
               class="object-cover w-25 h-25 rounded-t-lg"
             />
@@ -37,7 +39,7 @@ export default function Testimonials(props) {
         <div>
           <div>
             <img
-              src="https://i.postimg.cc/QCKSj51g/Whats-App-Image-2022-11-08-at-10-58-27-PM.jpg"
+              src={utsav}
               alt="profile2"
               class="object-cover w-25 h-25 rounded-t-lg"
             />

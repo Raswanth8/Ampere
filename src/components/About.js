@@ -1,4 +1,6 @@
 import React from "react";
+import bad from "../assets/bad1.png";
+import pickle from "../assets/pickle.png";
 
 export default function About() {
   return (
@@ -69,11 +71,7 @@ export default function About() {
           </div>
         </div>
         <div class="w-full h-full">
-          <img
-            src="https://i.postimg.cc/634RkMvj/Untitled-design-1.png"
-            border="0"
-            alt="Untitled-design-1"
-          />
+          <img src={bad} border="0" alt="Untitled-design-1" />
         </div>
       </div>
       <br />
@@ -142,11 +140,7 @@ export default function About() {
           </div>
         </div>
         <div class="w-full h-full">
-          <img
-            src="https://i.postimg.cc/DZN8HZRq/Untitled-design-2.png"
-            border="0"
-            alt="Untitled-design-1"
-          />
+          <img src={pickle} border="0" alt="Untitled-design-1" />
         </div>
       </div>
     </section>

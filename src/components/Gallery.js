@@ -5,8 +5,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-
 import "swiper/css/autoplay";
+import silde2 from "../assets/slides/slide2.jpeg";
+import silde3 from "../assets/slides/slide3.jpeg";
+import silde4 from "../assets/slides/slide4.jpeg";
+import silde5 from "../assets/slides/slide5.jpeg";
+import silde6 from "../assets/slides/slide6.jpeg";
+import silde7 from "../assets/slides/slide7.jpeg";
+import silde8 from "../assets/slides/slide8.jpeg";
 
 export default function Gallery() {
   return (
@@ -24,58 +30,37 @@ export default function Gallery() {
       >
         <SwiperSlide>
           <center>
-            <img
-              src="https://i.postimg.cc/JzFqDHMk/Whats-App-Image-2022-11-05-at-11-08-16-PM.jpg"
-              alt="slide1"
-            />
+            <img src={silde2} alt="slide1" />
           </center>
         </SwiperSlide>
         <SwiperSlide>
           <center>
-            <img
-              src="https://i.postimg.cc/ydmXbf9m/Whats-App-Image-2022-11-06-at-11-25-09-PM.jpg"
-              alt="slide2"
-            />
+            <img src={silde3} alt="slide2" />
           </center>
         </SwiperSlide>
         <SwiperSlide>
           <center>
-            <img
-              src="https://i.postimg.cc/6qBLJdLD/Whats-App-Image-2022-11-06-at-11-25-10-PM.jpg"
-              alt="slide3"
-            />
+            <img src={silde4} alt="slide3" />
           </center>
         </SwiperSlide>
         <SwiperSlide>
           <center>
-            <img
-              src="https://i.postimg.cc/SRVLyJgj/Whats-App-Image-2022-11-06-at-11-27-13-PM-1.jpg"
-              alt="slide4"
-            />
+            <img src={silde5} alt="slide4" />
           </center>
         </SwiperSlide>
         <SwiperSlide>
           <center>
-            <img
-              src="https://i.postimg.cc/05C0GB9x/Whats-App-Image-2022-11-06-at-11-27-09-PM-1.jpg"
-              alt="slide5"
-            />
+            <img src={silde6} alt="slide5" />
           </center>
         </SwiperSlide>
         <SwiperSlide>
           <center>
-            <img
-              src="https://i.postimg.cc/0NCDPh78/Whats-App-Image-2022-11-08-at-12-28-52-PM.jpg"
-              alt="slide6"
-            />
+            <img src={silde7} alt="slide6" />
           </center>
         </SwiperSlide>
         <SwiperSlide>
           <center>
-            <img
-              src="https://i.postimg.cc/Jh7vrVSx/Whats-App-Image-2022-11-08-at-11-32-49-AM.jpg"
-              alt="slide7"
-            />
+            <img src={silde8} alt="slide7" />
           </center>
         </SwiperSlide>
       </Swiper>
