@@ -82,7 +82,7 @@ export default function About() {
         <div class="order-none md:order-2">
           <center>
             <img
-              src="https://iili.io/mq5zLQ.md.png"
+              src="https://i.ibb.co/bspHRnx/new-png.png"
               className="w-50 h-40"
               alt="bad"
             ></img>
