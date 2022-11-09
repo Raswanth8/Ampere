@@ -55,7 +55,7 @@ export default function Footer(props) {
           </p>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="#"
+            href="#about-page"
           >
             <Link to="about-page" smooth={true} offset={-70} duration={1200}>
               About Us
@@ -63,7 +63,7 @@ export default function Footer(props) {
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="#"
+            href="#contact-us"
           >
             <Link to="achieve-page" smooth={true} offset={-70} duration={1200}>
               Achievements
@@ -71,7 +71,7 @@ export default function Footer(props) {
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="#"
+            href="#faq-page"
           >
             <Link to="faq-page" smooth={true} offset={-70} duration={1200}>
               FAQs
@@ -79,7 +79,7 @@ export default function Footer(props) {
           </a>
           <a
             class="flex mb-3 text-sm font-semibold text-gray-800 transition md:mb-2 hover:text-orange-600 font-poppins"
-            href="#"
+            href="#contact-us"
           >
             <Link to="contact-us" smooth={true} offset={-70} duration={1200}>
               Contact Us
